@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const joke =
-  "Our daily standup takes fifteen minutes because that's exactly how long it takes eight adults to say \"no blockers\" while blocked by everything.";
+  "Our standup is fifteen minutes of eight adults saying \"no blockers\" while blocked by everything — the meeting is the blocker.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "./output";
 mkdirSync(outDir, { recursive: true });
